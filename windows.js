@@ -1,5 +1,5 @@
 //This is window class like Java for jQuery UI
-Frame = function(str){
+var Frame = function(str){
 	this.mainElement = $("<div id=\"temp_" + new Date().getTime() + "\"><div class=\"wrapper\"></div></div>") ;
 	this.mainElement.dialog({
 		title : str ,
